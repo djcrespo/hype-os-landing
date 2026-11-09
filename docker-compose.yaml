@@ -15,6 +15,5 @@ services:
       - net-proxy
 
 networks:
-  proxy:
+  net-proxy:
     external: true
-    name: nginx-proxy
